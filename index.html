@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rajat Kumar | Marketing Automation Specialist</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: white;
+}
+
+/* Glass Card */
+.card {
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 15px;
+  max-width: 900px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+h1 {
+  font-size: 42px;
+  margin: 0;
+}
+
+.btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 20px;
+  background: #38bdf8;
+  color: black;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.btn:hover {
+  background: #0ea5e9;
+}
+
+/* Section Titles */
+h2 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* Fade animation */
+.fade {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 1s;
+}
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Rajat Kumar</h1>
+  <p>Marketing Automation Specialist</p>
+  <p>Driving high-impact campaigns for global brands</p>
+
+  <a href="#" class="btn">Download Resume</a>
+  <a href="https://linkedin.com" class="btn">LinkedIn</a>
+</header>
+
+<section class="card fade">
+  <h2>About Me</h2>
+  <p>7+ years of experience in marketing automation with expertise in Marketo, Salesforce, ON24, and Dynamics 365. Specialized in customer journey building, lead nurturing, and campaign optimization.</p>
+</section>
+
+<section class="card fade">
+  <h2>Skills</h2>
+  <p>Marketo | Salesforce | Dynamics 365 | ON24 | HTML | CSS | A/B Testing | Lead Nurturing</p>
+</section>
+
+<section class="card fade">
+  <h2>Experience</h2>
+
+  <h3>WPP Production</h3>
+  <p>Leading campaign execution, automation workflows, and optimization strategies.</p>
+
+  <h3>Wunderman Thompson Studios</h3>
+  <p>Worked on Microsoft campaigns, reporting dashboards, and marketing automation systems.</p>
+</section>
+
+<section class="card fade">
+  <h2>Contact</h2>
+  <p>Email: rajatrajput088@gmail.com</p>
+  <p>Phone: +91-9911500660</p>
+</section>
+
+<script>
+const elements = document.querySelectorAll('.fade');
+
+window.addEventListener('scroll', () => {
+  elements.forEach(el => {
+    const top = el.getBoundingClientRect().top;
+    if(top < window.innerHeight - 100){
+      el.classList.add('show');
+    }
+  });
+});
+</script>
+
+</body>
+</html>
