@@ -1,50 +1,180 @@
-<p> </p>
-<p>Rajat Kumar | Marketing Automation Specialist</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Rajat Kumar | Marketing Automation Specialist</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
 <!-- AOS Animation -->
-<p> </p>
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins';}
+
+body{
+  background:#020617;
+  color:white;
+}
+
+/* HERO */
+.hero{
+  text-align:center;
+  padding:100px 20px;
+}
+
+.hero img{
+  width:130px;
+  border-radius:50%;
+  border:3px solid #38bdf8;
+}
+
+.hero h1{font-size:48px;margin-top:15px;}
+.hero h3{color:#38bdf8;}
+
+.btn{
+  display:inline-block;
+  margin:15px;
+  padding:10px 20px;
+  background:#38bdf8;
+  color:black;
+  border-radius:6px;
+  text-decoration:none;
+}
+
+/* SECTIONS */
+section{
+  max-width:1000px;
+  margin:30px auto;
+  padding:30px;
+  background:rgba(255,255,255,0.05);
+  backdrop-filter:blur(10px);
+  border-radius:10px;
+}
+
+h2{color:#38bdf8;margin-bottom:15px;}
+
+/* SKILLS */
+.skill{
+  margin:10px 0;
+}
+.bar{
+  height:8px;
+  background:#1e293b;
+  border-radius:5px;
+}
+.fill{
+  height:8px;
+  background:#38bdf8;
+  border-radius:5px;
+}
+
+/* CONTACT */
+input,textarea{
+  width:100%;
+  padding:10px;
+  margin:10px 0;
+  border:none;
+  border-radius:5px;
+}
+
+button{
+  padding:10px;
+  background:#38bdf8;
+  border:none;
+  cursor:pointer;
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:20px;
+  opacity:0.6;
+}
+</style>
+</head>
+
+<body>
+
 <!-- HERO -->
-<div class="hero" data-aos="fade-up"><img src="https://kommodo.ai/i/5pZwiBk293EkUp3p92SL" alt="" />
-<h1><em>Rajat Kumar</em></h1>
-<h3>Marketing Automation Specialist</h3>
-<p><strong>7+ years experience in Creating Marketo Campaigns &amp; automation systems</strong></p>
-<a class="btn" href="https://github.com/RajatRajput01/RajatRajput01.github.io/blob/main/Rajat%20Kumar%20CV%202026.pdf">Contact</a> <a class="btn" href="#">Download Resume</a></div>
+<div class="hero" data-aos="fade-up">
+  <img src="https://via.placeholder.com/130">
+  <h1>Rajat Kumar</h1>
+  <h3>Marketing Automation Specialist</h3>
+  <p>6+ years experience in Marketo & automation systems</p>
+
+  <a href="#contact" class="btn">Contact</a>
+  <a href="#" class="btn">Download Resume</a>
+</div>
+
 <!-- ABOUT -->
 <section data-aos="fade-up">
-<h2>About Me</h2>
-<p>Experienced Marketing Automation Specialist at Hogarth Studios. Expert in Marketo, campaign automation, and scalable workflows.</p>
+  <h2>About Me</h2>
+  <p>
+    Experienced Marketing Automation Specialist at Hogarth Studios.
+    Expert in Marketo, campaign automation, and scalable workflows.
+  </p>
 </section>
+
 <!-- SKILLS -->
 <section data-aos="fade-up">
-<h2>Skills</h2>
-<div class="skill">
-<ul>
-<li><strong>Marketing Tools: </strong>Marketo, Salesforce, Dynamics 365, ON24, Certain</li>
-<li><strong>Campaigns:</strong> Email Marketing, Lead Nurturing, A/B Testing</li>
-<li><strong>CRM &amp; Data:</strong> Lead Scoring, Segmentation, Reporting</li>
-<li><strong>Technical:</strong> HTML, CSS, Basic Java, PHP, WordPress</li>
-<li><strong>Soft Skills:</strong> Stakeholder Management, Team Collaboration, Training</li>
-</ul>
-</div>
-<div class="skill">
-<div class="bar"> </div>
-</div>
+  <h2>Skills</h2>
+
+  <div class="skill">Marketo
+    <div class="bar"><div class="fill" style="width:90%"></div></div>
+  </div>
+
+  <div class="skill">Email Marketing
+    <div class="bar"><div class="fill" style="width:85%"></div></div>
+  </div>
+
+  <div class="skill">Automation
+    <div class="bar"><div class="fill" style="width:88%"></div></div>
+  </div>
+
 </section>
+
 <!-- EXPERIENCE -->
 <section data-aos="fade-up">
-<h2>Experience</h2>
-<h3>WPP Production </h3>
-<p><strong>Marketing Automation Specialist</strong></p>
-<ul>
-<li>Handled global campaigns</li>
-<li>Built automation workflows</li>
-<li>Improved conversion rates</li>
-</ul>
-<p> </p>
+  <h2>Experience</h2>
+  <h3>Hogarth Studios</h3>
+  <ul>
+    <li>Handled global campaigns</li>
+    <li>Built automation workflows</li>
+    <li>Improved conversion rates</li>
+  </ul>
 </section>
+
+<!-- PROJECTS -->
+<section data-aos="fade-up">
+  <h2>Projects</h2>
+  <ul>
+    <li>Email automation system</li>
+    <li>Lead scoring model</li>
+    <li>Landing page optimization</li>
+  </ul>
+</section>
+
 <!-- CONTACT -->
 <section id="contact" data-aos="fade-up">
-<h2>Contact Me</h2>
-<input type="text" placeholder="Your Name" /> <input type="email" placeholder="Your Email" /> <textarea placeholder="Message"></textarea> <button>Send Message</button></section>
+  <h2>Contact Me</h2>
+
+  <input type="text" placeholder="Your Name">
+  <input type="email" placeholder="Your Email">
+  <textarea placeholder="Message"></textarea>
+  <button>Send Message</button>
+
+</section>
+
 <footer>
-<p>© 2026 Rajat Kumar</p>
+  <p>© 2026 Rajat Kumar</p>
 </footer>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
+
+</body>
+</html>
