@@ -1,147 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Rajat Kumar | Marketing Automation Specialist</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-  
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
-    
-    body {
-      background: #0f172a;
-      color: white;
-      line-height: 1.6;
-    }
+<meta charset="UTF-8">
+<title>Rajat Kumar | Marketing Automation Specialist</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    header {
-      text-align: center;
-      padding: 80px 20px;
-    }
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 
-    header h1 {
-      font-size: 48px;
-      font-weight: 700;
-    }
+<!-- AOS Animation -->
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
-    header h3 {
-      color: #38bdf8;
-      margin: 10px 0;
-    }
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins';}
 
-    header p {
-      max-width: 600px;
-      margin: auto;
-      opacity: 0.8;
-    }
+body{
+  background:#020617;
+  color:white;
+}
 
-    .btn {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 10px 20px;
-      background: #38bdf8;
-      color: black;
-      border-radius: 5px;
-      text-decoration: none;
-      transition: 0.3s;
-    }
+/* HERO */
+.hero{
+  text-align:center;
+  padding:100px 20px;
+}
 
-    .btn:hover {
-      background: #0ea5e9;
-    }
+.hero img{
+  width:130px;
+  border-radius:50%;
+  border:3px solid #38bdf8;
+}
 
-    section {
-      padding: 60px 20px;
-      max-width: 1000px;
-      margin: auto;
-    }
+.hero h1{font-size:48px;margin-top:15px;}
+.hero h3{color:#38bdf8;}
 
-    h2 {
-      margin-bottom: 20px;
-      border-bottom: 2px solid #38bdf8;
-      display: inline-block;
-    }
+.btn{
+  display:inline-block;
+  margin:15px;
+  padding:10px 20px;
+  background:#38bdf8;
+  color:black;
+  border-radius:6px;
+  text-decoration:none;
+}
 
-    ul {
-      margin-top: 10px;
-      padding-left: 20px;
-    }
+/* SECTIONS */
+section{
+  max-width:1000px;
+  margin:30px auto;
+  padding:30px;
+  background:rgba(255,255,255,0.05);
+  backdrop-filter:blur(10px);
+  border-radius:10px;
+}
 
-    .card {
-      background: #1e293b;
-      padding: 20px;
-      margin-top: 20px;
-      border-radius: 10px;
-    }
+h2{color:#38bdf8;margin-bottom:15px;}
 
-    footer {
-      text-align: center;
-      padding: 20px;
-      opacity: 0.6;
-    }
-  </style>
+/* SKILLS */
+.skill{
+  margin:10px 0;
+}
+.bar{
+  height:8px;
+  background:#1e293b;
+  border-radius:5px;
+}
+.fill{
+  height:8px;
+  background:#38bdf8;
+  border-radius:5px;
+}
+
+/* CONTACT */
+input,textarea{
+  width:100%;
+  padding:10px;
+  margin:10px 0;
+  border:none;
+  border-radius:5px;
+}
+
+button{
+  padding:10px;
+  background:#38bdf8;
+  border:none;
+  cursor:pointer;
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:20px;
+  opacity:0.6;
+}
+</style>
 </head>
 
 <body>
 
-<header>
+<!-- HERO -->
+<div class="hero" data-aos="fade-up">
+  <img src="https://via.placeholder.com/130">
   <h1>Rajat Kumar</h1>
   <h3>Marketing Automation Specialist</h3>
-  <p>I build scalable marketing automation, campaigns & customer journeys</p>
-  <a href="#contact" class="btn">Contact Me</a>
-</header>
+  <p>6+ years experience in Marketo & automation systems</p>
 
-<section>
+  <a href="#contact" class="btn">Contact</a>
+  <a href="#" class="btn">Download Resume</a>
+</div>
+
+<!-- ABOUT -->
+<section data-aos="fade-up">
   <h2>About Me</h2>
   <p>
-    I am a Marketing Automation Specialist with 6+ years of experience at Hogarth Studios. 
-    I specialize in Marketo, campaign automation, and building scalable marketing systems.
+    Experienced Marketing Automation Specialist at Hogarth Studios.
+    Expert in Marketo, campaign automation, and scalable workflows.
   </p>
 </section>
 
-<section>
+<!-- SKILLS -->
+<section data-aos="fade-up">
   <h2>Skills</h2>
+
+  <div class="skill">Marketo
+    <div class="bar"><div class="fill" style="width:90%"></div></div>
+  </div>
+
+  <div class="skill">Email Marketing
+    <div class="bar"><div class="fill" style="width:85%"></div></div>
+  </div>
+
+  <div class="skill">Automation
+    <div class="bar"><div class="fill" style="width:88%"></div></div>
+  </div>
+
+</section>
+
+<!-- EXPERIENCE -->
+<section data-aos="fade-up">
+  <h2>Experience</h2>
+  <h3>Hogarth Studios</h3>
   <ul>
-    <li>Marketo</li>
-    <li>Email Marketing</li>
-    <li>Campaign Automation</li>
-    <li>HTML/CSS</li>
-    <li>CRM Integration</li>
+    <li>Handled global campaigns</li>
+    <li>Built automation workflows</li>
+    <li>Improved conversion rates</li>
   </ul>
 </section>
 
-<section>
-  <h2>Experience</h2>
-  <div class="card">
-    <h3>Hogarth Studios</h3>
-    <p>Marketing Automation Specialist</p>
-    <ul>
-      <li>Handled global marketing campaigns</li>
-      <li>Built automated workflows in Marketo</li>
-      <li>Improved email engagement & conversions</li>
-    </ul>
-  </div>
-</section>
-
-<section>
+<!-- PROJECTS -->
+<section data-aos="fade-up">
   <h2>Projects</h2>
   <ul>
     <li>Email automation system</li>
+    <li>Lead scoring model</li>
     <li>Landing page optimization</li>
-    <li>Lead scoring setup in Marketo</li>
   </ul>
 </section>
 
-<section id="contact">
-  <h2>Contact</h2>
-  <p>Email: your@email.com</p>
-  <p>LinkedIn: your-link</p>
+<!-- CONTACT -->
+<section id="contact" data-aos="fade-up">
+  <h2>Contact Me</h2>
+
+  <input type="text" placeholder="Your Name">
+  <input type="email" placeholder="Your Email">
+  <textarea placeholder="Message"></textarea>
+  <button>Send Message</button>
+
 </section>
 
 <footer>
   <p>© 2026 Rajat Kumar</p>
 </footer>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
 
 </body>
 </html>
